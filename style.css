@@ -30,10 +30,9 @@ body {
 
 #image {
   max-width: 85%;
-  display: inline-block;
-  height: auto;
+  display: block;
   padding: 15px;
-  text-align: center;
+  margin: auto;
   object-fit: cover;
 }
 #img-div {
