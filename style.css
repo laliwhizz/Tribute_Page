@@ -1,0 +1,92 @@
+#main {
+  --contrast-background: rgb(224, 187, 228);
+  --content-background: rgb(174, 122, 185);
+
+  padding: 15px;
+  margin: 30px 20px;
+  line-height: 25px;
+  background-color: var(--content-background);
+  border-radius: 5px;
+}
+
+body {
+  margin: 20px 20px;
+  background-color: rgb(205, 174, 212);
+}
+
+#header-content {
+  text-align: center;
+}
+
+#title {
+  padding: 10px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.ti {
+  font-style: italic;
+}
+
+#image {
+  max-width: 85%;
+  display: inline-block;
+  height: auto;
+  padding: 15px;
+  text-align: center;
+  object-fit: cover;
+}
+#img-div {
+  background-color: var(--contrast-background, white);
+  margin: 0;
+  border-radius: 5px;
+  width: auto;
+}
+#img-caption {
+  position: relative;
+  bottom: 35px;
+  font-size: 85%;
+}
+
+h2 {
+  text-align: center;
+  font-family: Calibri;
+  font-weight: 900;
+}
+
+ul {
+  max-width: 550px;
+  text-align: left;
+  margin: 0px auto 50px auto;
+}
+
+li {
+  line-height: 2;
+  margin: 20px 0;
+}
+
+section {
+  font-style: italic;
+  font-family: "Times New Roman";
+  font-size: 15px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgb(205, 174, 212);
+}
+#Quotes {
+  font-weight: bolder;
+}
+
+#footer-content {
+  text-align: center;
+}
+#tribute-link:visited {
+  color: burlywood;
+}
+
+.copy {
+  text-align: center;
+}
